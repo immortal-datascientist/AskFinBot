@@ -13,3 +13,8 @@
 /local_qdrant
 /model_weights
 
+# Ignore secrets
+credentials.json
+.env
+
+
