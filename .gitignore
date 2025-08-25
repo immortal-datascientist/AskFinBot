@@ -3,3 +3,13 @@
 /extracted_tables
 /stored_pdfs
 /temp_uploaded_file.pdf
+/models/llama_models/
+
+.env
+/finacle
+/experments
+/llama.cpp
+/storage
+/local_qdrant
+/model_weights
+

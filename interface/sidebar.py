@@ -3,7 +3,7 @@ from files.pdf_upload import handle_pdf_upload
 
 def render_sidebar():
     st.sidebar.title("Navigation")
-    option = st.sidebar.selectbox("Select a page:", ["Home", "Sample 1", "Sample 2"])
+    option = st.sidebar.selectbox("Select a page:", ["Home", "Ask_SQL_query", "Sample 2"])
 
     st.sidebar.title(" ")
     st.sidebar.title(" ")

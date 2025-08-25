@@ -9,8 +9,8 @@ uvicorn
 langchain_huggingface
 sse_starlette
 bs4
+numpy==2.2.0
 pypdf
-chromadb
 faiss-cpu
 arxiv
 groq
@@ -19,7 +19,6 @@ pdfkit
 WeasyPrint
 reportlab
 fpdf
-sentence-transformers
 PyMuPDF
 pytesseract 
 pillow 
@@ -27,3 +26,24 @@ opencv-python
 pdfplumber
 spacy
 duckduckgo-search
+pymysql
+torch
+transformers
+accelerate
+oracledb
+sqlalchemy
+sentence-transformers
+langchain-ollama
+langchain_ollama
+qdrant-client
+langchain_qdrant
+###### python -m spacy download en_core_web_sm  
+
+###### pip install llama-cpp-python --upgrade --force-reinstall --no-cache-dir --extra-index-url https://jllllll.github.io/llama-cpp-python-cuBLAS-wheels/AVX2/cu121
+
+
+# pydrive
+# google-api-python-client 
+# google-auth 
+# google-auth-httplib2 
+# google-auth-oauthlib
