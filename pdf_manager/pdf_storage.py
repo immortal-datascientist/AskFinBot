@@ -1,4 +1,3 @@
-
 # pdf_storage.py
 
 import os
@@ -7,6 +6,7 @@ from langchain_qdrant import Qdrant
 from qdrant_client import QdrantClient
 from qdrant_client.models import VectorParams, Distance
 from langchain_huggingface.embeddings import HuggingFaceEmbeddings
+
 
 PDF_DATA_DIR = "stored_pdfs"
 EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"  # Keep consistent for upload + retrieval

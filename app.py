@@ -1,4 +1,3 @@
-
 ##################################  Original code ######################################
 """
 Main entry point for the Streamlit app.
@@ -50,4 +49,3 @@ if option == "Home":
 
 elif option == "Ask_SQL_query":
     render_sql_query()
-
